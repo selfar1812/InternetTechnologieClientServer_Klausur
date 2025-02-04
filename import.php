@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$dbname = "fel_data"; // Der Name deiner Datenbank //test
+$dbname = "fel_data"; // Der Name deiner Datenbank 
 
 // Verbindung zur Datenbank herstellen
 $conn = new mysqli($servername, $username, $password, $dbname);
