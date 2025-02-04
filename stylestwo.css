@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f4f1;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d322d;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d322d;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    color: #b33c00;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 1.0rem;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    color: #3d322d;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 15px 0; 
+    line-height: 1.6; 
+    align-items: left;
+    justify-content: left;
+}
+
+nav {
+    background-color: rgba(117, 79, 79, 0.8); 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+}
+
+.nav-list {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+    justify-content: center; 
+}
+
+.nav-list a:hover {
+    color: #7089a3; 
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+input, select {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    display: block;  
+    margin: 20px auto;
+    background-color: #c4b6ab;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #b33c00;
+}
+
+#chart_div {
+    margin-top: 20px;
+}
